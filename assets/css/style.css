@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(244 238 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.products-container {}
+
+.items-container {
+    margin: auto;
+    width: 480px;
+}
+
+.first-line {
+    display: inline-flex;
+
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    margin-left: 10px;
+}
+.items {
+    border: 1px solid rgba(172, 164, 164, 0.5);
+    border-radius: 8px;
+    background-color: #ffff;
+    height: 265px;
+    width: 230px;
+    overflow-x: auto;
+    position: relative;
+}
+
+figure img {
+    height: 170px;
+    width: 100%;
+    position: relative;
+}
+
+.diamond img {
+    position: absolute;
+    bottom: 105px;
+    right: 10px;
+    height: 18px;
+    width: 18px;
+    z-index: 1;
+    background-color: #ffff;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.particul {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.percent img {
+    height: 18px;
+    width: 18px;
+}
+
+.roller img {
+    height: 18px;
+    width: 18px;
+}
+
+.contrant img {
+    height: 18px;
+    width: 18px;
+}
+
+.like img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 18px;
+    width: 18px;
+}
+
+.agency {
+    position: absolute;
+    bottom: 105px;
+    left: 10px;
+    background-color: #4264fd;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #ffff;
+    text-align: center;
+    padding: 3px 8px;
+}
+
+.money {
+    position: absolute;
+    bottom: 62px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f1f19;
+    ;
+}
+
+.area {
+    position: absolute;
+    bottom: 44px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f1f19;
+}
+
+.building {
+    position: absolute;
+    bottom: 28px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4a4a;
+    overflow: hidden;
+}
+
+.building sup {
+    font-size: 8px;
+    font-weight: 600;
+    margin-left: -4px;
+}
+
+.city-date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #98918a;
+}
