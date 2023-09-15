@@ -1,6 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,34 +12,29 @@ body {
     font-size: 14px;
 }
 
-.products-container {}
 
 .items-container {
-    margin: auto;
-    width: 480px;
+    margin: 50px auto;
+    width: 1080px;
 }
 
-.first-line {
-    display: inline-flex;
-
+.first-items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    margin-left: 10px;
-}
-
 .items {
     border: 1px solid rgba(172, 164, 164, 0.5);
     border-radius: 8px;
     background-color: #ffff;
-    height: 265px;
+    height: 280px;
     width: 230px;
     overflow-x: auto;
     position: relative;
+    
+}
+.items:hover {
+    box-shadow: 0 17px 34px 0 rgba(0, 0, 0, 0.04), 0 8px 17px 0 rgba(82, 77, 94, 0.02);
 }
 
 figure img {
@@ -77,7 +75,7 @@ li:hover .arrow-left {
 
 .diamond img {
     position: absolute;
-    bottom: 105px;
+    top: 140px;
     right: 10px;
     height: 18px;
     width: 18px;
@@ -119,7 +117,7 @@ li:hover .arrow-left {
 
 .agency {
     position: absolute;
-    bottom: 105px;
+    top: 140px;
     left: 10px;
     background-color: #4264fd;
     border-radius: 5px;
@@ -133,7 +131,7 @@ li:hover .arrow-left {
 
 .money {
     position: absolute;
-    bottom: 62px;
+    bottom: 85px;
     left: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -143,7 +141,7 @@ li:hover .arrow-left {
 
 .area {
     position: absolute;
-    bottom: 44px;
+    bottom: 70px;
     left: 10px;
     font-size: 16px;
     font-weight: 500;
@@ -152,12 +150,15 @@ li:hover .arrow-left {
 
 .building {
     position: absolute;
-    bottom: 28px;
+    bottom: 35px;
     left: 10px;
     font-size: 14px;
     font-weight: 500;
     color: #4a4a4a;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
 }
 
 .building sup {
